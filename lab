@@ -1,0 +1,145 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+//     //problem1
+// int num1, num2,num3,num4, num5, sum;
+//     cout<<"Enter the 1st numbers: \n";
+// cin>>num1;
+//     cout<<"Enter the 2nd numbers: \n";
+//     cin>>num2;
+//     cout<<"Enter the 3rd numbers: \n";
+//     cin>>num3;
+//     cout<<"Enter the 4th numbers: \n";
+//     cin>>num4;
+//     cout<<"Enter the 5th numbers: \n";
+//     cin>>num5;
+//     sum=num1+num2+num3+num4+num5;
+//     cout<<"Sum is "<<sum;
+
+
+
+
+//     //problem2
+// int id, year, studyfee;
+//     float gpa;
+// cout<<"What is your ID ";
+// cin>>id;
+//     cout<<"What is your GPA ";
+//     cin>>gpa;
+//     cout<<"What is your year of study ";
+// cin>>year;
+//     cout<<"What is your study fee ";
+//     cin>>studyfee;
+//
+//     cout<<"Student ID:"<<id<<endl;
+//     cout<<"Student GPA:"<<gpa<<endl;
+//     cout<<"Student Year of Study:"<<year<<endl;
+//     cout<<"Student Study Fee:"<<studyfee<<" sum";
+
+    // //problem3
+    // float celsius, fahrenheit;
+    // cout<<"what is the temperature(in Celsius) ";
+    // cin>>celsius;
+    // fahrenheit = (celsius*9/5)+32;
+    // cout<<"The temperature in Celsius is: "<<celsius<<endl;
+    // cout<<"The temperature in Fahrenheit is: "<<fahrenheit<<endl;
+
+    // //problem4
+    // double cost, total;
+    // int quantity;
+    // cout << "Enter cost per item ";
+    // cin >> cost;
+    // cout << "Enter quantity ";
+    // cin >> quantity;
+    // total = cost * quantity;
+    // cout << "Total cost is $" << total << endl;
+
+    // //problem5
+    // int age1, age2, age3, age4;
+    // float average;
+    // cout << "Enter 1st age: ";
+    // cin >> age1;
+    // cout << "Enter 2nd age: ";
+    // cin >> age2;
+    // cout << "Enter 3rd age: ";
+    // cin >> age3;
+    // cout << "Enter 4th age: ";
+    // cin >> age4;
+    // average = (age1 + age2 + age3 + age4) / 4.00;
+    // cout << "Average age is " << average << endl;
+
+    // //problem6
+    // float lenght, width, area, perimeter;
+    // cout << "Enter the length of the rectangle: ";
+    // cin >> lenght;
+    // cout << "Enter the width of the rectangle: ";
+    // cin >> width;
+    // area = (lenght * width)*1.00;
+    // perimeter= (lenght + width) * 2.00;
+    // cout << "The area of the rectangle is: " << area << endl;
+    // cout << "The perimeter of the rectangle is: " << perimeter << endl;
+
+    // //problem7
+    // int dividend, divisor, quotient, remainder;
+    // cout << "Input the dividend: ";
+    // cin >> dividend;
+    // cout << "Input divisor: ";
+    // cin >> divisor;
+    // quotient = dividend / divisor;
+    // remainder = dividend-quotient*divisor;
+    // cout<<"The quotient of the devision is: "<<quotient<<endl;
+    // cout<<"The remainder of the devision is: "<<remainder<<endl;
+
+    // //problem8
+    // int usd, uzs, rub, exchangerate1, exchangerate2;
+    // cout<<"Amount in USD: ";
+    // cin>>usd;
+    // cout<<"Exchange rate (1 USD to 1 UZS): ";
+    // cin>>exchangerate1;
+    // uzs=usd*exchangerate1;
+    // cout<<"Exchange rate (1 USD to 1 Ruble): ";
+    // cin>>exchangerate2;
+    // rub=usd*exchangerate2;
+    // cout<<"The equivalent amount in UZS is: "<<uzs<<endl;
+    // cout<<"The equivalent amount in Ruble is: "<<rub<<endl;
+
+    // //problem9
+    // float radius, area;
+    // const double PI = 3.141592653589793;
+    // cout << "Enter the radius of the circle: ";
+    // cin >> radius;
+    // area= PI*radius*radius;
+    // cout << "Surface area of the circle with r="<<radius<<" is: " << area << endl;
+
+//problem10
+    // float radius, height, volume;
+    // const double PI = 3.14159265358979323846;
+    // cout << "Enter the radius of the cylinder: ";
+    // cin >> radius;
+    // cout << "Enter the height of the cylinder: ";
+    // cin >> height;
+    // volume = PI * radius * radius * height;
+    // cout << "The volume of the cylinder with r="<<radius<<" and h="<<height<<" is: " << volume << endl;
+
+// //problem11
+//     int distance=450;
+//     int time=2;
+//     float vel1, vel2;
+//     vel1=distance/time;
+//     vel2=vel1/1.609;
+//     cout<<"V="<<vel1<<"km/h and "<<vel2<<"miles/h";
+    //problem12
+int time, hour, minute;
+    cout << "Enter time in minutes" << endl;
+    cin >> time;
+    hour = time /60;
+    minute=time-hour*60;
+    cout<<"Total minutes: "<<time<<endl;
+    cout <<"Total time: " <<hour<<" hours " <<minute<<" minutes" << endl;
+
+
+
+
+    return 0;
+}
